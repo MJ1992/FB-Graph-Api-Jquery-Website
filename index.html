@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>FB Graph API </title>
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- Font awesome  -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body id="page-top">
+    <!-- Navigation -->
+    <div class="container">
+        <div class="token token-pos">
+            <form id='form'>
+                <div class="form-group text-center">
+                    <label for="graphApiToken"> <h1>FB Graph Api Token</h1></label>
+                    <input type="text" class="form-control" id="graphApiToken" placeholder="Enter your Graph Api Token and Click on Submit">
+                </div>
+                <div class="submitButton">
+                    <button type="button" class="btn btn-primary " id="submitButton">Submit</button>
+                </div>
+            </form>
+        </div>
+        <div class="loader"></div>
+        <div class="otherProfileButton submitButton">
+            <button type="button" class="btn btn-primary " id="otherProfileButton">Check Different user's profile</button>
+        </div>
+        <!-- Tab links -->
+        <div id="content">
+                <div class="tabs">
+            <ul class="nav nav-tabs">
+                <li class="nav-item active">
+                    <a class="nav-link " data-toggle="tab" href="#profileTab">Profile</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#feedTab">Feed</a>
+                </li>
+            </ul>
+        </div>
+        <!-- Tab content -->
+        <div class="tab-content">
+            <div id="profileTab" class="tab-pane fade in active ">
+                <div class="profile">
+                    <div id="profileInfo">
+                        <div id="name">name</div>
+                        <div id="profilePic">Picture</div>
+                    </div>
+                    <div id="profileData">
+                        <ul class="profileData list-group">
+                            <li class="list-group-item">About : <span id="About"></span></li>
+                            <li class="list-group-item">Gender : <span id="Gender"></span></li>
+                            <li class="list-group-item">Birthday : <span id="Birthday"></span> </li>
+                            <li class="list-group-item">Work : <span id="Work"></span> </li>
+                            <li class="list-group-item">Education : <span id="Education"><ul id="schoolList" class='list-group'></ul></span> </li>
+                            <li class="list-group-item">Email : <span id="Email"></span></li>
+                            <li class="list-group-item">Hometown : <span id="Hometown"></span></li>
+                            <li class="list-group-item">Interested In : <span id="Interested"></span></li>
+                            <li class="list-group-item">Languages : <span id="Languages"></span></li>
+                            <li class="list-group-item">Relationship Status : <span id="RelationshipStatus"></span></li>
+                            <li class="list-group-item">Likes : <span id="Likes"> <ul id="likesList" class='List'></ul></span></li>
+                            <li class="list-group-item">Friends : <span id="Friends"> <ul id="friendsList" class='List'></ul></span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div id="feedTab" class="tab-pane fade">
+                <div class="feed">
+                    <div id="feedData">
+                        <ul id="feed" class='list-group'>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>    
+        </div>
+        
+    </div>
+    <script type="text/javascript" src="js/app.js"></script>
+</body>
+
+</html>
