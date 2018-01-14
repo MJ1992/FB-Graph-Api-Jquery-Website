@@ -3,172 +3,176 @@ body {
     background-color: #FFF;
 }
 
-.token-pos{
-	margin-top: 150px;
+.token-pos {
+    margin-top: 150px;
 }
 
-.profile{
-	margin-top: 5px;
-	background-color: 	#E9EBEE	;
+.profile {
+    margin-top: 5px;
+    background-color: #E9EBEE;
 }
+
 .feed {
-	margin-top: 5px;
-	background-color: 	#E9EBEE	;
-
+    margin-top: 5px;
+    background-color: #E9EBEE;
 }
 
 
 
 
 .submitButton {
-	margin : 10px auto;
-	text-align: center;
+    margin: 10px auto;
+    text-align: center;
 }
 
 
-.profileInfo{
-	width: 100%;
-	height: 100px;
-
+.profileInfo {
+    width: 100%;
+    height: 100px;
 }
-#name{
-	color: #000;
-	font-size: 35px;
-	font-weight: 700;
-	margin: 25px auto;
-	display: inline-block;
-	float: left;
-	width: 50%;
-	text-align: center;
 
+#name {
+    color: #000;
+    font-size: 35px;
+    font-weight: 700;
+    margin: 25px auto;
+    display: inline-block;
+    float: left;
+    width: 50%;
+    text-align: center;
 }
+
 #profilePic {
-	width: 50%;
-	height: 100px;
-	
-	display: inline-block;
-	float: right;
-	text-align: center;
+    width: 50%;
+    height: 100px;
+
+    display: inline-block;
+    float: right;
+    text-align: center;
 }
+
 .profilePic {
-	width: 100px;
-	height: 100px;
-	border: 5px solid white;
-	display: inline-block;
-	
-	
+    width: 100px;
+    height: 100px;
+    border: 5px solid white;
+    display: inline-block;
 }
+
 #profileData {
-	clear: both;
+    clear: both;
 }
 
 li {
-	font-size: 16px;
-	font-weight: 700;
+    font-size: 16px;
+    font-weight: 700;
 }
 
 .profileData li span {
-	font-weight: 500;
-	font-size: 16px;
+    font-weight: 500;
+    font-size: 16px;
 }
 
 .List {
-	padding: 0;
-	margin: 10px auto; 
+    padding: 0;
+    margin: 10px auto;
 }
 
-#feedData  {
-	margin: 10px auto;
+#feedData {
+    margin: 10px auto;
 }
+
 #feed {
-	width: 100%;
-	margin: 1px auto;
-	text-align: center;
+    width: 100%;
+    margin: 1px auto;
+    text-align: center;
 }
 
 #feed li {
-	font-weight: 600;
-	font-style: 16px;
-	margin-left: 5px auto;
-	width: 90%;
-	display: inline-block;
-	
+    font-weight: 600;
+    font-style: 16px;
+    margin-left: 5px auto;
+    width: 90%;
+    display: inline-block;
 }
 
 #feed li span {
-	font-weight: 400;
-	font-size: 14px;
+    font-weight: 400;
+    font-size: 14px;
 }
+
 #feed li img {
-	width: 400px;
-	height: 300px;
-	margin: 10px auto;
-	border: 1px solid black;
+    width: 400px;
+    height: 300px;
+    margin: 10px auto;
+    border: 1px solid black;
 }
 
-@media only screen and (max-width: 260px){
-	#feed li img {
-	width: 150px;
-	height: 100px;
-	margin: 5px auto;
-	border: 1px solid black;
-}
-}
-
-
-
-@media only screen and (min-width: 261px) and (max-width: 305px){
-	#feed li img {
-	width: 180px;
-	height: 120px;
-	margin: 5px auto;
-	border: 1px solid black;
-}
-
-}
-
-@media only screen and (min-width: 306px) and (max-width: 420px){
-	#feed li img {
-	width: 220px;
-	height: 180px;
-	margin: 5px auto;
-	border: 1px solid black;
+@media only screen and (max-width: 260px) {
+    #feed li img {
+        width: 150px;
+        height: 100px;
+        margin: 5px auto;
+        border: 1px solid black;
+    }
 }
 
 
+
+@media only screen and (min-width: 261px) and (max-width: 305px) {
+    #feed li img {
+        width: 180px;
+        height: 120px;
+        margin: 5px auto;
+        border: 1px solid black;
+    }
 }
 
-@media only screen and (min-width: 421px) and (max-width: 520px){
-	#feed li img {
-	width: 250px;
-	height: 200px;
-	margin: 5px auto;
-	border: 1px solid black;
+@media only screen and (min-width: 306px) and (max-width: 420px) {
+    #feed li img {
+        width: 220px;
+        height: 180px;
+        margin: 5px auto;
+        border: 1px solid black;
+    }
 }
 
-
+@media only screen and (min-width: 421px) and (max-width: 520px) {
+    #feed li img {
+        width: 250px;
+        height: 200px;
+        margin: 5px auto;
+        border: 1px solid black;
+    }
 }
 
 .loader {
-	margin : 0 auto;
-  border: 16px solid #f3f3f3;
-  border-radius: 50%;
-  border-top: 16px solid #4867AA;
-  border-bottom: 16px solid #4867AA;
-  width: 100px;
-  height: 100px;
-  -webkit-animation: spin 2s linear infinite;
-  animation: spin 2s linear infinite;
+    margin: 0 auto;
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #4867AA;
+    border-bottom: 16px solid #4867AA;
+    width: 100px;
+    height: 100px;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
 }
 
 @-webkit-keyframes spin {
-  0% { -webkit-transform: rotate(0deg); }
-  100% { -webkit-transform: rotate(360deg); }
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
 }
 
 @keyframes spin {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
 }
 
 
@@ -179,8 +183,9 @@ li {
     border: 1px solid #ccc;
     background-color: #f1f1f1;
 }
+
 .tab button {
-	background-color: #4867AA;
+    background-color: #4867AA;
     width: 50%;
     float: left;
     border: none;
@@ -190,11 +195,10 @@ li {
     transition: 0.3s;
     font-size: 17px;
     color: #FFF;
-    
 }
 
-.tabs li  {
-	
+.tabs li {
+
     width: 50%;
     float: left;
     border: none;
@@ -204,5 +208,4 @@ li {
     transition: 0.3s;
     font-size: 17px;
     color: #FFF;
-    
 }
