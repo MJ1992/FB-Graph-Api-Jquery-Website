@@ -2,7 +2,7 @@ $(document).ready(function(){
 	$('.loader').hide();
 	$("#content").hide();
 	$('#otherProfileButton').hide();
-	var originalState= $('.container').clone();
+	
 	
     function getResponse(){
     	var myToken = $('#graphApiToken').val();
@@ -84,17 +84,11 @@ $(document).ready(function(){
                    	
 
                    });
-					function listData(selector,item){
-						if(check(item)){
-							$(selector).append("<li class='list-group-item'>"+ item.name +"</li>");
-						}else{
-							$(selector).append("<li class='list-group-item'>"+ "Not  specified" +"</li>");
-						}
-					}
+					
 
 					function check(data){
 						return (data != undefined)?true:false;
-					}	
+					} //to check if data is present or not	
                     
                     
 
